@@ -1,0 +1,23 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "google",
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "quotes": [
+            0
+        ],
+        "semi": "off",
+        "linebreak-style": "off",
+        // will be turning it on after completing core functions
+        "require-jsdoc": "off",
+        "max-len": [1, { "code": 120 }],
+        "object-curly-spacing": [1, "always"]
+    }
+}
